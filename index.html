@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Jon Arrizabalaga</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+
+<body>
+
+<section class="sub-header" id="home">
+    <nav>
+        <a href="index.html"><a/>
+        <div class="nav_links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="#home">HOME</a></li>
+                    <li> <a href="#publications">PUBLICATIONS</a></li>
+                    <li> <a href="#contact">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1> Jon Arrizabalaga </h1>
+        <p> PhD candidate - Roboticist - Technical University of Munich</p>
+    </div>
+    <div class="icons">
+        <a class="fa fa-twitter fa-2x" href="https://twitter.com/jonarriza96" target="_blank"></a>
+        <a class="fa fa-linkedin fa-2x" href="https://linkedin.com/in/jonarri" target="_blank"></a>
+        <a class="fa fa-envelope fa-2x" href="mailto:jon.arrizabalaga@tum.de" target="_blank"></a>
+        <a class="ai ai-google-scholar-square ai-2x" href="https://scholar.google.com/citations?hl=en&user=bFpUBy0AAAAJ" target="_blank"></a>
+    </div>
+
+</section>
+
+
+<!------ About me content ------>
+<section class="about-me">
+    <div class="row">
+        <div class="about-col">
+            <p>Hi! I am a PhD student at the <a href="https://www.asg.ed.tum.de/en/aas/startseite/" target="_blank">Autonomous Aerial Systems Lab</a> in the Technical University of Munich under the supervision of <a href="http://markusryll.com/?q=node/4" target="_blank">Prof. Markus Ryll</a>.
+               My field of research focuses at the intersection of robotics, motion planning and (optimal) control.</p>
+            <p>If you find my work appealing or would like to <a href="#contact">connect</a>, please get in touch! I am always looking for new colaborations.</p>
+            <div class="about-buttons">
+                <a href="cv/CV_Webpage.pdf" target="_blank" class="hero-btn">Download CV</a>
+                <a href="#contact" class="hero-btn">Connect</a>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="images/profile/profile_pic.jpg">
+        </div>
+    </div>
+</section>
+
+<!------ Publications ------>
+<section class="publications" id="publications">
+    <h1>Publications</h1>
+    <div class="row">
+        <div class="publications-col">
+            <img src="images/spatial_motion_planning_with_ph_curves/spatial_ph.png">
+            <h3>Spatial Motion Planning with Pythagorean Hodograph curves</h3>
+            <!--div class="publications-buttons">
+                <a href="" class="hero-btn" target="blank_">Paper</a>
+                <a href="" class="hero-btn" target="blank_">Video</a>
+            </div-->
+            <h4> Coming very soon ...</h4>
+        </div>
+        <div class="publications-col">
+            <img src="images/tunnel/tunnel.png">
+            <h3>Towards Time-Optimal Tunnel Following for Quadrotors</h3>
+            <div class="publications-buttons">
+                <a href="https://arxiv.org/pdf/2110.01351.pdf" class="hero-btn" target="_blank">Paper</a>
+                <a href="https://youtu.be/Apc8MCu7Yvo" class="hero-btn" target="_blank">Video</a>
+            </div>
+        </div>
+        <div class="publications-col">
+            <img src="images/caster_wheel/cw.png">
+            <h3>A Caster-Wheel Aware Motion Planner for mobile robotics</h3>
+            <div class="publications-buttons">
+                <a href="https://arxiv.org/pdf/2110.05604.pdf" class="hero-btn" target="_blank">Paper</a>
+                <a href="https://youtu.be/NXXZKEZUi30" class="hero-btn" target=_blank>Video</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------ Contact ------>
+<section class="contact" id="contact">
+    <h1>Contact</h1>
+    <p>If you are interested in reaching out, please send me an email to <a href="mailto:jon.arrizabalaga@tum.de">jon.arrizabalaga@tum.de</a> .
+    <br>In case you want to receive the latest updates on my research, follow me on social media!</p>
+    <div class="contact-icons">
+        <a class="fa fa-twitter fa-2x" href="https://twitter.com/jonarriza96" target="_blank"></a>
+        <a class="fa fa-linkedin fa-2x" href="https://linkedin.com/in/jonarri" target="_blank"></a>
+        <a class="fa fa-envelope fa-2x" href="mailto:jon.arrizabalaga@tum.de" target="_blank"></a>
+        <a class="ai ai-google-scholar-square ai-2x" href="https://scholar.google.com/citations?hl=en&user=bFpUBy0AAAAJ" target="_blank"></a>
+    </div>
+</section>
+
+<!------ JavaScript to Toggle Menu ------>
+<script>
+    var navLinks =  document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+<html>
