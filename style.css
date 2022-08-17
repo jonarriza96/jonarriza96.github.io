@@ -177,6 +177,7 @@ nav .fa{
         margin: 10px;
         font-size: 22px;
         cursor:pointer;
+        z-index:1;
     }
     .nav_links ul{
         padding: 30px;
