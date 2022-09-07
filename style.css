@@ -201,6 +201,11 @@ nav .fa{
     display:Flex;
     justify-content: space-between;
 }
+.row2{
+    margin-top: -2.5%;
+    display:Flex;
+    justify-content: space-between;
+}
 .publications-buttons{
     text-align: left;
 }
@@ -229,6 +234,7 @@ nav .fa{
 }
 .publications-col p{
     padding: 0;
+    font-size: 12px;
     position: relative;
     bottom: 5px;
 }
@@ -243,6 +249,10 @@ nav .fa{
 @media(max-width: 700px){
     .row{
         flex-direction: column;
+    }
+    .row2{
+        flex-direction: column;
+        margin-top: 5%;
     }
     .publications-buttons{
         text-align: center;
@@ -331,6 +341,7 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 20px;
+    margin-top: -2.5%;
 }
 .contact p{
     font-size: 20px;
