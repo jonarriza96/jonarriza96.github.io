@@ -32,7 +32,7 @@ a {
     url(images/profile/profile_pic.jpg);
   background-position: 10% 15%;
   background-size: cover;
-  position: absolute;
+  position: relative;
 }
 
 nav {
@@ -71,14 +71,14 @@ nav {
 .text-box {
   width: 90%;
   color: #fff;
-  position: absolute;
+  position: relative;
   top: 20%;
   left: 20%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 .text-box h1 {
-  font-size: 62px;
+  font-size: 3vw;
 }
 .text-box p {
   margin: 10px 0 40px;
@@ -91,7 +91,7 @@ nav {
 }
 .icons {
   width: 90%;
-  position: absolute;
+  position: relative;
   top: 35%;
   left: 20%;
   transform: translate(-50%, -50%);
@@ -134,7 +134,7 @@ nav .fa {
   .icons {
     font-size: 10px;
     left: 50%;
-    top: 42.5%;
+    top: 57%;
   }
   .header {
     position: centered;
@@ -142,17 +142,17 @@ nav .fa {
   .text-box {
     width: 90%;
     color: #fff;
-    position: absolute;
-    top: 5%;
+    position: relative;
+    top: -6%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
   .text-box h1 {
-    font-size: 26px;
+    font-size: 6vw;
   }
   .text-box p {
-    font-size: 10px;
+    font-size: 2.5vw;
     font-weight: 350;
     margin: 10px 0 40px;
     line-height: 22px;
@@ -160,7 +160,7 @@ nav .fa {
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 50%;
+    top: 40%;
   }
   .nav_links ul li {
     display: block;
@@ -204,7 +204,7 @@ nav .fa {
   .icons {
     font-size: 10px;
     left: 50%;
-    top: 37%;
+    top: 65%;
   }
   .header {
     position: centered;
@@ -212,17 +212,17 @@ nav .fa {
   .text-box {
     width: 90%;
     color: #fff;
-    position: absolute;
-    top: 5%;
+    position: relative;
+    top: -5%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
   .text-box h1 {
-    font-size: 26px;
+    font-size: 6vw;
   }
   .text-box p {
-    font-size: 15px;
+    font-size: 1.75vw;
     font-weight: 350;
     margin: 10px 0 40px;
     line-height: 22px;
@@ -230,7 +230,7 @@ nav .fa {
     position: absolute;
     left: 0%;
     right: 0%;
-    top: 50%;
+    top: 67%;
   }
   .nav_links ul li {
     display: block;
@@ -430,8 +430,8 @@ nav .fa {
 }
 @media (max-width: 700px) {
   .sub-header {
-    height: 47vh;
-    background-position: 50% 40%;
+    height: 37vh;
+    background-position: 50% 50%;
   }
   .about-col p {
     color: #777;
@@ -450,8 +450,8 @@ nav .fa {
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .sub-header {
-    height: 40vh;
-    background-position: 50% 10%;
+    height: 47vh;
+    background-position: 50% 30%;
   }
   .about-col p {
     color: #777;
@@ -473,7 +473,36 @@ nav .fa {
     margin: 0px 0px 0px 0px;
   }
 }
-
+@media screen and (orientation: landscape) and (max-width: 1200px) {
+  .about-col img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .sub-header {
+    height: 50vh;
+    background-position: 50% 35%;
+  }
+  .icons {
+    font-size: 0px;
+    position: centered;
+    color: rgba(0, 0, 0, 0);
+  }
+  .text-box h1 {
+    font-size: 3vw;
+    position: centered;
+    color: rgba(0, 0, 0, 0);
+  }
+  .text-box p {
+    font-size: 1.5vw;
+    font-weight: 350;
+    margin: 10px 0 40px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: -20%;
+  }
+}
 /* ---- contact ----*/
 .contact {
   width: 80%;
