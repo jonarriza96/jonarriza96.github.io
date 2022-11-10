@@ -222,7 +222,7 @@ nav .fa {
     font-size: 26px;
   }
   .text-box p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 350;
     margin: 10px 0 40px;
     line-height: 22px;
@@ -366,9 +366,9 @@ nav .fa {
     bottom: 0px;
     top: 10px;
     color: #777;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 300;
-    line-height: 18px;
+    line-height: 16px;
     padding: 15px 5;
   }
 }
@@ -466,6 +466,11 @@ nav .fa {
   }
   .about-buttons a {
     margin: 15px 15px 0px 0px;
+  }
+  .about-col img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
   }
 }
 
