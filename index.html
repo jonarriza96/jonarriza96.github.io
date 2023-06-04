@@ -21,6 +21,21 @@
         h6 {
             font-family: "Raleway", sans-serif
         }
+
+        a {
+            /* font-weight: bold; */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            /* color: gray; */
+        }
+
+        .bold-link {
+            font-weight: bold;
+            /* font-style: italic; */
+        }
     </style>
 </head>
 
@@ -80,24 +95,34 @@
         </header>
 
         <div class="w3-container w3-padding-large">
-            <p>Hi! I am a PhD student at the <a href="https://www.asg.ed.tum.de/en/aas/startseite/"
-                    target="_blank">Autonomous
+            <p>Hi! I am a PhD student at the <a href="https://www.asg.ed.tum.de/en/aas/startseite/" target="_blank"
+                    class="w3-hover-text-grey bold-link">Autonomous
                     Aerial Systems Lab</a> in the Technical University of Munich under
-                the supervision of <a href="http://markusryll.com/?q=node/4" target="_blank">Prof. Markus Ryll</a>.
+                the supervision of <a href="http://markusryll.com/?q=node/4" target="_blank"
+                    class="w3-hover-text-grey bold-link">Prof. Markus Ryll</a>.
+                Before pursuing my doctoral studies, I obtained my MSc. degree in Robotics-Mechatronics at <a
+                    href=https://www.kth.se/en target="_blank" class="w3-hover-text-grey bold-link"> KTH Royal Institute
+                    of Technology</a> (Sweden, 2020) and wrote the MSc. Thesis at the Robotics department of <a
+                    href=https://www.bosch.com/research/ target="_blank" class="w3-hover-text-grey bold-link"> Bosch
+                    Research</a>
+                (Germany, 2020).
+            <p>
                 My research interests lie at the intersection of robotics, motion planning and (optimal) control. More
                 specifically, aiming to enhance the agility, efficiency and robustness of robotic and autonomous
-                systems, I develop
-                novel methods capable of directly computing optimal motions by solely relying on the environment's
-                geometric
-                features. For further details, check out my <a href="#publications">publications</a>!
+                systems, I develop novel methods capable of directly computing optimal motions by solely relying on the
+                environment's
+                geometric features. For further details, check out my <a href="#publications"
+                    class="w3-hover-text-grey bold-link">publications</a>!
                 <!-- For further details, check out my <a href="docs/Research_Statement.pdf"
                     target="_blank">research statement</a> and <a href="#publications">publications</a>. -->
 
                 <!-- <p>Before pursuing my doctoral studies, I obtained my MSc. in Robotics-Mechatronics at KTH Royal Institute
                 of Technology (Sweden, 2020) and wrote my MSc. Thesis at the Robotics departement of Bosch Research
                 (Germany, 2020). -->
+            </p>
             <p>
-                If you find my work appealing or would like to <a href="#contact">connect</a>,
+                If you find my work appealing or would like to <a href="#contact"
+                    class="w3-hover-text-grey bold-link">connect</a>,
                 please get in touch. I am always looking for new colaborations.</p>
             </p>
 
@@ -119,6 +144,32 @@
         <!-- First Photo Grid-->
         <div class="w3-row-padding w3-padding-large">
             <h4 id="publications"><b>Publications</b></h4>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="/images/pfdq/pfdq.png" style="width:100%">
+                <div class="w3-container w3-white">
+                    <div class="w3-medium">
+                        <p><b>Pose-Following with Dual Quaternions</b></p>
+                    </div>
+                    <div class="w3-small">
+                        <p>J. Arrizabalaga, M. Ryll<br>
+                            Under review, 2023
+                            <!-- <br><a href="https://arxiv.org/pdf/2210.02345.pdf" style="text-decoration:none;"
+                                            target="_blank">
+                                            <b>[Preprint]</b> </a> -->
+                        </p>
+                    </div>
+                    <!-- <li class="w3-padding-16" style="list-style: none;">
+                                    <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
+                                            href="https://arxiv.org/pdf/2210.02345.pdf" style="text-decoration:none;"
+                                            target="_blank"> Preprint </a>
+                                    </button> -->
+                    <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                            href="https://www.mirmi.tum.de/fileadmin/w00byb/mirmi/_my_direct_uploads/ICRA_23_WS_Pose_Following_with_Dual_Quaternions_ICRA_ws.pdf"
+                            style="text-decoration:none;" target="_blank">
+                            Preprint </a>
+                    </button>
+                </div>
+            </div>
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="/images/sctomp/sctomp.png" style="width:100%">
                 <div class="w3-container w3-white">
@@ -189,6 +240,10 @@
                     </button>
                 </div>
             </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="/images/tunnel/tunnel.png" style="width:100%">
                 <div class="w3-container w3-white">
@@ -200,16 +255,16 @@
                         </p>
                     </div>
                     <!-- <li class="w3-padding-16" style="list-style: none;">
-                        <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                href="https://arxiv.org/pdf/2110.01351.pdf" style="text-decoration:none;"
-                                target="_blank"> Paper </a>
-                        </button>
-                        &nbsp;
-                        <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                href="https://youtu.be/Apc8MCu7Yvo" style="text-decoration:none;" target="_blank"> Video
-                            </a>
-                        </button>
-                    </li> -->
+                                    <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
+                                            href="https://arxiv.org/pdf/2110.01351.pdf" style="text-decoration:none;"
+                                            target="_blank"> Paper </a>
+                                    </button>
+                                    &nbsp;
+                                    <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
+                                            href="https://youtu.be/Apc8MCu7Yvo" style="text-decoration:none;" target="_blank"> Video
+                                        </a>
+                                    </button>
+                                </li> -->
                     <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
                             href="https://arxiv.org/pdf/2110.01351.pdf" style="text-decoration:none;" target="_blank">
                             Paper </a>
@@ -221,15 +276,11 @@
                     </button>
                 </div>
             </div>
-        </div>
-
-        <!-- Second Photo Grid-->
-        <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="/images/neural_mpc/flight_ge.png" style="width:100%">
                 <div class="w3-container w3-white">
-                    <p><b>Real-time Neural-MPC: Deep Learning Model Predictive Control for Quadrotors and Agile Robotic
-                            Platforms</b></p>
+                    <p><b>Neural-MPC: Deep learning model predictive control for quadrotors and agile robotic
+                            platforms</b></p>
                     <div class="w3-small">
                         <p>
                             T. Salzmann, E. Kaufmann, J. Arrizabalaga, M. Pavone, D. Scaramuzza, M. Ryll<br>
@@ -321,7 +372,9 @@
             <!-- <div class="w3-center"> -->
             <p>If you are interested in reaching out, please <a href="mailto:jon.arrizabalaga@tum.de">send me an
                     email</a>. In case you want to receive the
-                latest updates on my research, <a href="https://twitter.com/jonarriza96">follow me on social media!</a>
+                latest updates on my research, <a href="https://twitter.com/jonarriza96" class="bold-link"
+                    target="_blank">follow me on
+                    social media!</a>
             </p>
             <!-- </div> -->
             <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
