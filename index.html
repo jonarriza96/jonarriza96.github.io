@@ -9,7 +9,8 @@
     <link rel="shortcut icon" type="x-icon" href="images/logo/logo-no-background.png">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/910a573180.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <style>
         body,
@@ -34,6 +35,7 @@
 
         .bold-link {
             font-weight: bold;
+            /* color: darkslategrey; */
             /* font-style: italic; */
         }
     </style>
@@ -55,7 +57,7 @@
     <!-- w3-light-grey  -->
 
     <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <nav class="w3-sidebar w3-collapse w3-light-grey w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
         <div class="w3-container">
             <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
                 title="close menu">
@@ -63,28 +65,34 @@
             </a>
             <img src="/images/profile/profile_pic.jpg" style="width:100%;" class="w3-round"><br><br>
             <h4><b>Jon Arrizabalaga</b></h4>
-            <p class="w3-text-grey">PhD Candidate <br>Technical University of Munich</p>
-        </div>
-        <div class="w3-bar-block">
-            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
-                    class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
-            <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
-                    class="fa fa-th-large fa-fw w3-margin-right"></i>PUBLICATIONS</a>
-            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding "><i
-                    class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
-        </div>
-        <div class="w3-panel w3-large">
-            <a class="fa fa-twitter fa-2x w3-hover-opacity" href="https://twitter.com/jonarriza96"
+            <p class="w3-text-grey">PhD Candidate <br>Technical University of Munich (TUM)</p>
+            <a class="fa fa-envelope fa-2x w3-hover-opacity" href="mailto:jon.arrizabalaga@tum.de"
                 style="text-decoration:none;" target="_blank"></a>
             &nbsp;
             <a class="fa fa-linkedin fa-2x w3-hover-opacity" href="https://linkedin.com/in/jonarri"
                 style="text-decoration:none;" target="_blank"></a>
             &nbsp;
-            <a class="fa fa-envelope fa-2x w3-hover-opacity" href="mailto:jon.arrizabalaga@tum.de"
+            <a class="fa-brands fa-x-twitter fa-2x w3-hover-opacity" href="https://twitter.com/jonarriza96"
+                style="text-decoration:none;" target="_blank"></a>
+            &nbsp;
+            <a class="fa-brands fa-github fa-2x w3-hover-opacity" href="https://github.com/jonarriza96"
                 style="text-decoration:none;" target="_blank"></a>
             &nbsp;
             <a class="ai ai-google-scholar-square ai-2x w3-hover-opacity"
                 href="https://scholar.google.com/citations?hl=en&user=bFpUBy0AAAAJ" target="_blank"></a>
+            <p> </p>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+            <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-book fa-fw w3-margin-right"></i>PUBLICATIONS</a>
+            <a href="#software" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-code fa-fw w3-margin-right"></i>SOFTWARE</a>
+            <a href="#teaching" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-graduation-cap fa-fw w3-margin-right"></i>TEACHING</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding "><i
+                    class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
         </div>
     </nav>
 
@@ -102,7 +110,12 @@
             <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
                     class="fa fa-bars"></i></span>
             <div class="w3-container w3-bottombar ">
-                <h1><b>Jon Arrizabalaga</b></h1>
+                <div class="w3-container w3-twothird">
+                    <h1><b>Jon Arrizabalaga</b></h1>
+                </div>
+                <div class="w3-container w3-small w3-third w3-margin-top w3-padding-large">
+                    <b>Last updated:</b> 19-December-2023
+                </div>
             </div>
         </header>
 
@@ -149,7 +162,7 @@
                 </button>
                 &nbsp;
                 <button class="w3-button w3-dark-grey w3-padding-small w3-margin-top w3-margin-bottom w3-hover-black">
-                    <i class="fa fa-download w3-margin-right"></i><a
+                    <i class="fa fa-book-open w3-margin-right"></i><a
                         href="https://fslrg.de/navigator-wise-23_24/#dearflip-df_976/19/" style="text-decoration:none;"
                         target="_blank">
                         Interview </a>
@@ -167,7 +180,7 @@
 
         <!-- First Photo Grid-->
         <div class="w3-row-padding w3-padding-large">
-            <h4 id="publications"><b>Publications</b></h4>
+            <h4 id="publications"><b>PUBLICATIONS</b></h4>
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="/images/l4casadi/l4casadi.png" style="width:100%">
                 <div class="w3-container w3-white">
@@ -178,24 +191,8 @@
                         <p>
                             T. Salzmann, J. Arrizabalaga, J. Andersson, M.Pavone , M. Ryll<br>
                             Under review, 2023
-                            <!--<br> <a href="https://arxiv.org/pdf/2209.01673.pdf" style="text-decoration:none;"
-                                                        target="_blank"> <b>[Paper]</b> </a>,
-                                                    <a href="https://youtu.be/Sl6x8l7RJK8" style="text-decoration:none;" target="_blank">
-                                                        <b>[Video]</b>
-                                                    </a> -->
                         </p>
                     </div>
-                    <!-- <li class="w3-padding-16" style="list-style: none;">
-                                                <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                                        href="https://arxiv.org/pdf/2209.01673.pdf" style="text-decoration:none;"
-                                                        target="_blank"> Paper </a>
-                                                </button>
-                                                &nbsp;
-                                                <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                                        href="https://youtu.be/Sl6x8l7RJK8" style="text-decoration:none;" target="_blank"> Video
-                                                    </a>
-                                                </button>
-                                            </li> -->
                     <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
                             href="https://arxiv.org/pdf/2312.05873.pdf" style="text-decoration:none;" target="_blank">
                             Paper </a>
@@ -224,16 +221,8 @@
                     <div class="w3-small">
                         <p>J. Arrizabalaga, M. Ryll<br>
                             Conference on Decision and Control (CDC), 2023
-                            <!-- <br><a href="https://arxiv.org/pdf/2210.02345.pdf" style="text-decoration:none;"
-                                            target="_blank">
-                                            <b>[Preprint]</b> </a> -->
                         </p>
                     </div>
-                    <!-- <li class="w3-padding-16" style="list-style: none;">
-                                    <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                            href="https://arxiv.org/pdf/2210.02345.pdf" style="text-decoration:none;"
-                                            target="_blank"> Preprint </a>
-                                    </button> -->
                     <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
                             href="https://arxiv.org/pdf/2308.09507.pdf" 1 style="text-decoration:none;" target="_blank">
                             Paper </a>
@@ -259,16 +248,8 @@
                     <div class="w3-small">
                         <p>J. Arrizabalaga, M. Ryll<br>
                             International Conf. on Intelligent Robots and Systems (IROS), 2023
-                            <!-- <br><a href="https://arxiv.org/pdf/2210.02345.pdf" style="text-decoration:none;"
-                                target="_blank">
-                                <b>[Preprint]</b> </a> -->
                         </p>
                     </div>
-                    <!-- <li class="w3-padding-16" style="list-style: none;">
-                        <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                href="https://arxiv.org/pdf/2210.02345.pdf" style="text-decoration:none;"
-                                target="_blank"> Preprint </a>
-                        </button> -->
                     <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
                             href="https://arxiv.org/pdf/2210.02345.pdf" style="text-decoration:none;" target="_blank">
                             Paper </a>
@@ -299,24 +280,8 @@
                         <p>
                             J. Arrizabalaga, M. Ryll<br>
                             Conference on Decision and Control (CDC), 2022
-                            <!--<br> <a href="https://arxiv.org/pdf/2209.01673.pdf" style="text-decoration:none;"
-                                        target="_blank"> <b>[Paper]</b> </a>,
-                                    <a href="https://youtu.be/Sl6x8l7RJK8" style="text-decoration:none;" target="_blank">
-                                        <b>[Video]</b>
-                                    </a> -->
                         </p>
                     </div>
-                    <!-- <li class="w3-padding-16" style="list-style: none;">
-                                <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                        href="https://arxiv.org/pdf/2209.01673.pdf" style="text-decoration:none;"
-                                        target="_blank"> Paper </a>
-                                </button>
-                                &nbsp;
-                                <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                        href="https://youtu.be/Sl6x8l7RJK8" style="text-decoration:none;" target="_blank"> Video
-                                    </a>
-                                </button>
-                            </li> -->
                     <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
                             href="https://arxiv.org/pdf/2209.01673.pdf" style="text-decoration:none;" target="_blank">
                             Paper </a>
@@ -344,17 +309,6 @@
                             International Conference on Robotics and Automation (ICRA), 2022
                         </p>
                     </div>
-                    <!-- <li class="w3-padding-16" style="list-style: none;">
-                                    <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                            href="https://arxiv.org/pdf/2110.01351.pdf" style="text-decoration:none;"
-                                            target="_blank"> Paper </a>
-                                    </button>
-                                    &nbsp;
-                                    <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                            href="https://youtu.be/Apc8MCu7Yvo" style="text-decoration:none;" target="_blank"> Video
-                                        </a>
-                                    </button>
-                                </li> -->
                     <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
                             href="https://arxiv.org/pdf/2110.01351.pdf" style="text-decoration:none;" target="_blank">
                             Paper </a>
@@ -378,18 +332,6 @@
                             Robotics and Automation Letters (RA-L), 2022
                         </p>
                     </div>
-                    <!-- <li class="w3-padding-16" style="list-style: none;">
-                        <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                href="https://arxiv.org/pdf/2203.07747.pdf" style="text-decoration:none;"
-                                target="_blank"> Paper </a>
-                        </button>
-                        &nbsp;
-                        <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                href="https://github.com/TUM-AAS/ml-casadi" style="text-decoration:none;"
-                                target="_blank"> Code
-                            </a>
-                        </button>
-                    </li> -->
                     <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
                             href="https://arxiv.org/pdf/2203.07747.pdf" style="text-decoration:none;" target="_blank">
                             Paper </a>
@@ -403,12 +345,6 @@
                 </div>
             </div>
             <div class="w3-third w3-container w3-margin-bottom">
-                <!-- <img src="/w3/w3images/p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                    <p><b>Lorem Ipsum</b></p>
-                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
-                        ultricies congue gravida diam non fringilla.</p>
-                </div> -->
             </div>
         </div>
 
@@ -424,24 +360,6 @@
                             International Conference on Advanced Robotics (ICAR), 2021
                         </p>
                     </div>
-                    <!-- <li class="w3-padding-16" style="list-style: none;">
-                        <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                href="https://arxiv.org/pdf/2110.05604.pdf" style="text-decoration:none;"
-                                target="_blank">
-                                Paper </a>
-                        </button>
-                        &nbsp;
-                        <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                href="https://youtu.be/NXXZKEZUi30" style="text-decoration:none;" target="_blank"> Video
-                            </a>
-                        </button>
-                        &nbsp;
-                        <button class=" w3-button w3-dark-grey w3-padding-large w3-hover-black"><a
-                                href="http://www.diva-portal.org/smash/get/diva2:1469258/FULLTEXT01.pdf"
-                                style="text-decoration:none;" target="_blank"> Thesis
-                            </a>
-                        </button>
-                    </li> -->
                     <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
                             href="https://arxiv.org/pdf/2110.05604.pdf" style="text-decoration:none;" target="_blank">
                             Paper </a>
@@ -460,73 +378,204 @@
                 </div>
             </div>
             <div class="w3-third w3-container w3-margin-bottom">
-                <!-- <img src="/w3/w3images/p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-                <div class="w3-container w3-white">
-                    <p><b>Lorem Ipsum</b></p>
-                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
-                        ultricies congue gravida diam non fringilla.</p>
-                </div> -->
             </div>
         </div>
-        <!-- Contact Section -->
-        <div class="w3-container w3-padding-large">
-            <h4 id="contact"><b>Contact Me</b></h4>
-            <!-- <div class="w3-center"> -->
-            <p>If you are interested in reaching out, please <a href="mailto:jon.arrizabalaga@tum.de">send me an
-                    email</a>. In case you want to receive the
-                latest updates on my research, <a href="https://twitter.com/jonarriza96" class="bold-link"
-                    target="_blank">follow me on
-                    social media!</a>
+        <!-- -------------------------- Software section --------------------------- -->
+        <div class="w3-row-padding w3-padding-large">
+            <h4 id="software"><b>SOFTWARE</b></h4>
+            <p>I believe that open-source code is a major driving force in accelerating research and technological
+                progress overall. To account for this, I always intend to release the code resulting from my
+                work. See here a list of repositories that I have created or contributed to: </p>
+            <div class="w3-row-padding">
+                <div class="w3-container w3-margin-bottom w3-third">
+                    <img src="/images/l4casadi/l4casadi_software.png" alt="Norway" style="width:100%">
+                </div>
+                <div class="w3-container w3-margin-bottom w3-twothird">
+                    <p><b>l4casadi</b><br>Data-Driven Models in Numerical Optimization</p>
+                    <div class="w3-small">
+                        <p> A Python package to embed PyTorch models and functions into CasADi. Together with <a
+                                href="https://tim-salzmann.github.io/" target="_blank"
+                                class="w3-hover-text-grey bold-link">Tim
+                                Salzmann</a>, I wrote the <a
+                                href="https://github.com/Tim-Salzmann/l4casadi/tree/main/examples/fish_turbulent_flow"
+                                target="_blank" class="w3-hover-text-grey bold-link">fish</a> and <a
+                                href="https://github.com/Tim-Salzmann/l4casadi/tree/main/examples/nerf_trajectory_optimization"
+                                target="_blank" class="w3-hover-text-grey bold-link">NeRF</a> examples.
+                        </p>
+                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                href="https://github.com/Tim-Salzmann/l4casadi" 1 style="text-decoration:none;"
+                                target="_blank">
+                                Code </a>
+                        </button>
+                        &nbsp;
+                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                href="https://arxiv.org/pdf/2312.05873.pdf" style="text-decoration:none;"
+                                target="_blank">
+                                Paper </a>
+                        </button>
+                        &nbsp;
+                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                href="https://youtu.be/UYdkRnGr8eM?si=KEPcFEL9b7Vk2juI&t=3348"
+                                style="text-decoration:none;" target="_blank">
+                                Talk
+                            </a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w3-row-padding">
+                <div class="w3-container w3-margin-bottom w3-third">
+                    <img src="/images/pfdq/pfdq_software.png" alt="Norway" style="width:100%">
+                </div>
+                <div class="w3-container w3-margin-bottom w3-twothird">
+                    <p><b>pfdq</b><br>Path-Following with Dual Quaternions</p>
+                    <div class="w3-small">
+                        <p>
+                            A pose-following framework based on unit dual
+                            quaternions for simultaneously controlling the
+                            translation and rotation of a rigid body.
+                        </p>
+                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                href="https://github.com/jonarriza96/pfdq" style="text-decoration:none;"
+                                target="_blank"> Code
+                            </a>
+                        </button>
+                        &nbsp;
+                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                href="https://arxiv.org/pdf/2308.09507.pdf" 1 style="text-decoration:none;"
+                                target="_blank">
+                                Paper </a>
+                        </button>
+                        &nbsp;
+                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                href="https://youtu.be/TQig2j90Ijc" 1 style="text-decoration:none;" target="_blank">
+                                Talk </a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="w3-row-padding">
+                <div class="w3-container w3-margin-bottom w3-third">
+                    <img src="/images/pydecomp/pydecomp.png" alt="Norway" style="width:100%">
+                </div>
+                <div class="w3-container w3-margin-bottom w3-twothird">
+                    <p><b>pydecomp</b><br>Python-based Convex Decomposition</p>
+                    <div class="w3-small">
+                        <p>
+                            A Python package for fast convex decomposition of obstacle-free
+                            spaces.
+                        </p>
+                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                href="https://github.com/jonarriza96/pydecomp" style="text-decoration:none;"
+                                target="_blank"> Code
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <p> I hope that this code paves the ground for other researchers. If you benefit from this, please leave
+                a <i class="fa fa-star" style="color:orange"></i> !
             </p>
-            <!-- </div> -->
-            <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
-                <div class="w3-third w3-black">
-                    <!-- <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p> -->
-                    <p><a class="fa fa-envelope fa-2x w3-xxlarge w3-text-light-grey"
-                            href="mailto:jon.arrizabalaga@tum.de" style="text-decoration:none; color:white;"
-                            target="_blank"></a></p>
-                    <p>jon.arrizabalaga@tum.de</p>
-                </div>
-                <div class="w3-third w3-black">
-                    <!-- <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p> -->
-                    <p><a class="fa fa-twitter fa-2x w3-xxlarge w3-text-light-grey"
-                            href="https://twitter.com/jonarriza96" style="text-decoration:none; color:white;"
-                            target="_blank"></a></p>
-                    <p>@jonarriza96</p>
-                </div>
-                <div class="w3-third w3-black">
-                    <!-- <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p> -->
-                    <p><a class="fa fa-linkedin fa-2x  w3-xxlarge w3-text-light-grey"
-                            href="https://linkedin.com/in/jonarri" style="text-decoration:none;" target="_blank"></a>
-                    </p>
-                    <p>Jon Arrizabalaga</p>
+            <!-- --------------------------- Teaching section --------------------------- -->
+            <div class="w3-row-padding w3-padding-large">
+                <h4 id="teaching"><b>TEACHING</b></h4>
+                <img src="/images/teaching/teaching_cropped.jpg" style="width:100%">
+                <p>During my doctoral studies I have had the privilege to teach the following courses:</p>
+                <ul>
+                    <li><b>Engineering Mechanics 1</b>: Introductory theoretical mechanics course offered throughout
+                        multiple semesters.
+                    </li>
+                    <div class="w3-medium">
+                        <ul>
+                            <li> Winter 21-22, TUM, BSc. Aerospace Engineering, Enrolled students: 200
+                            <li> Winter 22-23, TUM, BSc. Aerospace Engineering, Enrolled students: 350
+                            <li> Summer 22-23, TUM-Asia, MSc. Aerospace Engineering, Enrolled students: 20
+                            <li> Winter 23-24, TUM, BSc. Aerospace Engineering, Enrolled students: 450
+                        </ul>
+                    </div>
+                    <li><b>Introduction to Robot Operating System (ROS)</b>: Offered as an elective accross multiple
+                        MSc.
+                        programmes at TUM.</li>
+                    <div class="w3-medium">
+                        <ul>
+                            <li> MSc. Computer Science and Robotics
+                            <li> MSc. Aerospace Engineering
+                            <li> MSc. Mechanical Engineering
+                        </ul>
+                    </div>
+                </ul>
+                I very much enjoy teaching and have always received great feedback from the students. In fact, for my
+                teaching services in Engineering Mechanics 1, I was awarded with the <b>Best PhD Lecturer Award</b> !
+            </div>
+            <!-- --------------------------- Contact section --------------------------- -->
+            <div class="w3-container w3-padding-large">
+                <h4 id="contact"><b>CONTACT ME</b></h4>
+                <!-- <div class="w3-center"> -->
+                <p>If you are interested in reaching out, please <a href="mailto:jon.arrizabalaga@tum.de">send me an
+                        email</a>. In case you want to receive the
+                    latest updates on my research, <a href="https://twitter.com/jonarriza96" class="bold-link"
+                        target="_blank">follow me on
+                        social media</a>!
+                </p>
+                <!-- </div> -->
+                <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+                    <div class="w3-quarter w3-black">
+                        <!-- <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p> -->
+                        <p><a class="fa fa-envelope fa-2x w3-xxlarge w3-text-light-grey"
+                                href="mailto:jon.arrizabalaga@tum.de" style="text-decoration:none; color:white;"
+                                target="_blank"></a></p>
+                        <p>jon.arrizabalaga@tum.de</p>
+                    </div>
+                    <div class="w3-quarter w3-black">
+                        <!-- <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p> -->
+                        <p><a class="fa fa-linkedin fa-2x  w3-xxlarge w3-text-light-grey"
+                                href="https://linkedin.com/in/jonarri" style="text-decoration:none;"
+                                target="_blank"></a>
+                        </p>
+                        <p>Jon Arrizabalaga</p>
+                    </div>
+                    <div class="w3-quarter w3-black">
+                        <!-- <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p> -->
+                        <p><a class="fa-brands fa-x-twitter fa-2x w3-xxlarge w3-text-light-grey"
+                                href="https://twitter.com/jonarriza96" style="text-decoration:none; color:white;"
+                                target="_blank"></a></p>
+                        <p>@jonarriza96</p>
+                    </div>
+                    <div class="w3-quarter w3-black">
+                        <!-- <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p> -->
+                        <p><a class="fa-brands fa-github fa-2x w3-xxlarge w3-text-light-grey"
+                                href="https://github.com/jonarriza96" style="text-decoration:none; color:white;"
+                                target="_blank"></a></p>
+                        <p>jonarriza96</p>
+                    </div>
                 </div>
             </div>
+
+            <!-- Footer -->
+            <!-- <div class="w3-black w3-center w3-padding-24 w3-large"><b>Jon Arrizabalaga</b></div> -->
+
+            <!-- End page content -->
         </div>
 
-        <!-- Footer -->
-        <!-- <div class="w3-black w3-center w3-padding-24 w3-large"><b>Jon Arrizabalaga</b></div> -->
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";
+                document.getElementById("myOverlay").style.display = "block";
+            }
 
-        <!-- End page content -->
-    </div>
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
 
-    <script>
-        // Script to open and close sidebar
-        function w3_open() {
-            document.getElementById("mySidebar").style.display = "block";
-            document.getElementById("myOverlay").style.display = "block";
-        }
-
-        function w3_close() {
-            document.getElementById("mySidebar").style.display = "none";
-            document.getElementById("myOverlay").style.display = "none";
-        }
-    </script>
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5SK79FQ" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5SK79FQ" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
 </body>
 
 </html>
