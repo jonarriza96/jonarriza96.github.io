@@ -65,7 +65,13 @@
             </a>
             <img src="/images/profile/profile_pic.jpg" style="width:100%;" class="w3-round"><br><br>
             <h4><b>Jon Arrizabalaga</b></h4>
-            <p class="w3-text-grey">PhD Candidate <br>Technical University of Munich (TUM)</p>
+            <!-- <p class="w3-text-grey">PhD Candidate <br>Technical University of Munich (TUM)<br> Carnegie Mellon
+                University (CMU)</p> -->
+            <p class="w3-text-grey">PhD Candidate <br>
+                <span class="w3-small">Technical University of Munich (TUM)</span><br>
+                <span class="w3-small">Carnegie Mellon University (CMU)</span>
+            </p>
+
             <a class="fa fa-envelope fa-2x w3-hover-opacity" href="mailto:jon.arrizabalaga@tum.de"
                 style="text-decoration:none;" target="_blank"></a>
             &nbsp;
@@ -114,30 +120,36 @@
                     <h1><b>Jon Arrizabalaga</b></h1>
                 </div>
                 <div class="w3-container w3-small w3-third w3-margin-top w3-padding-large">
-                    <b>Last updated:</b> 19-December-2023
+                    <b>Last updated:</b> 11-February-2024
                 </div>
             </div>
         </header>
 
         <div class="w3-container w3-padding-large">
-            <p>Hi! I am a PhD student at the <a href="https://www.asg.ed.tum.de/en/aas/startseite/" target="_blank"
-                    class="w3-hover-text-grey bold-link">Autonomous
-                    Aerial Systems Lab</a> in the Technical University of Munich under
+            <p>Hi! I am a PhD student at the <a href="https://www.mirmi.tum.de/en/mirmi/home/" target="_blank"
+                    class="w3-hover-text-grey bold-link">Munich Institute of Robotics and Machine Intelligence
+                    (MIRMI)</a> at the Technical University of Munich (TUM) under
                 the supervision of <a href="http://markusryll.com/?q=node/4" target="_blank"
-                    class="w3-hover-text-grey bold-link">Prof. Markus Ryll</a>.
+                    class="w3-hover-text-grey bold-link">Prof. Markus Ryll</a>. Currently, I am visiting the <a
+                    href="https://www.ri.cmu.edu/" target="_blank" class="w3-hover-text-grey bold-link">
+                    Robotics Insitute (RI) </a> at Carnegie Mellon
+                University advised by <a href="http://zacmanchester.com/" target="_blank"
+                    class="w3-hover-text-grey bold-link">Prof. Zachary Manchester</a>.
+            </p>
+            <p>
                 Before pursuing my doctoral studies, I obtained my MSc. degree in Robotics-Mechatronics at <a
                     href=https://www.kth.se/en target="_blank" class="w3-hover-text-grey bold-link"> KTH Royal Institute
-                    of Technology</a> (Sweden, 2020) and wrote the MSc. Thesis at the Robotics department of <a
+                    of Technology</a> (Sweden, 2020) and wrote the MSc. Thesis at the robotics department of <a
                     href=https://www.bosch.com/research/ target="_blank" class="w3-hover-text-grey bold-link"> Bosch
                     Research</a>
                 (Germany, 2020).
             </p>
             <p>
-                My research interests lie at the intersection of robotics, motion planning and (optimal) control. More
+                My research interests lie at the intersection of robotics, geometry and control. More
                 specifically, aiming to enhance the agility, efficiency and robustness of robotic and autonomous
-                systems, I develop novel methods capable of directly computing optimal motions by solely relying on the
-                environment's
-                geometric features. For further details, check out my <a href="#publications"
+                systems, I develop novel methods that aim to unify perception, planning and control in a transparent and
+                understandable manner.
+                For further details, check out my <a href="#publications"
                     class="w3-hover-text-grey bold-link">publications</a>!
                 <!-- For further details, check out my <a href="docs/Research_Statement.pdf"
                     target="_blank">research statement</a> and <a href="#publications">publications</a>. -->
@@ -181,6 +193,35 @@
         <!-- First Photo Grid-->
         <div class="w3-row-padding w3-padding-large">
             <h4 id="publications"><b>PUBLICATIONS</b></h4>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="/images/gsft/gsft.png" style="width:100%">
+                <div class="w3-container w3-white">
+                    <div class="w3-medium">
+                        <p><b>Geometric Slosh-Free Tracking for Robotic Manipulators</b></p>
+                    </div>
+                    <div class="w3-small">
+                        <p>
+                            J. Arrizabalaga, L. Pries, R. Laha, R. Li, S. Haddadin , M. Ryll<br>
+                            International Conference on Robotics and Automation (ICRA), 2024
+                        </p>
+                    </div>
+                    <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                            href="https://arxiv.org/pdf/2402.05197.pdf" style="text-decoration:none;" target="_blank">
+                            Paper </a>
+                    </button>
+                    &nbsp;
+                    <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                            href="https://github.com/jonarriza96/gsft" style="text-decoration:none;" target="_blank">
+                            Code</a>
+                    </button>
+                    &nbsp;
+                    <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                            href="https://youtu.be/4kitqYVS9n8" style="text-decoration:none;" target="_blank">
+                            Video
+                        </a>
+                    </button>
+                </div>
+            </div>
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="/images/l4casadi/l4casadi.png" style="width:100%">
                 <div class="w3-container w3-white">
@@ -239,6 +280,10 @@
                     </button>
                 </div>
             </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="/images/sctomp/sctomp_v2_resized.png" style="width:100%">
                 <div class="w3-container w3-white">
@@ -266,10 +311,6 @@
                     </button>
                 </div>
             </div>
-        </div>
-
-        <!-- Second Photo Grid-->
-        <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="/images/spatial_motion_planning_with_ph_curves/spatial_ph.png" style="width:100%">
                 <div class="w3-container w3-white">
@@ -321,6 +362,12 @@
                 </div>
             </div>
             <div class="w3-third w3-container w3-margin-bottom">
+            </div>
+        </div>
+
+        <!-- Third Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
                 <img src="/images/neural_mpc/flight_ge.png" style="width:100%">
                 <div class="w3-container w3-white">
                     <p><b>Real-time Neural MPC:<br>
@@ -344,12 +391,6 @@
                     </button>
                 </div>
             </div>
-            <div class="w3-third w3-container w3-margin-bottom">
-            </div>
-        </div>
-
-        <!-- Third Photo Grid-->
-        <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="/images/caster_wheel/cw.png" alt="Norway" style="width:100%">
                 <div class="w3-container w3-white">
@@ -426,38 +467,6 @@
             </div>
             <div class="w3-row-padding">
                 <div class="w3-container w3-margin-bottom w3-third">
-                    <img src="/images/pfdq/pfdq_software.png" alt="Norway" style="width:100%">
-                </div>
-                <div class="w3-container w3-margin-bottom w3-twothird">
-                    <p><b>pfdq</b><br>Path-Following with Dual Quaternions</p>
-                    <div class="w3-small">
-                        <p>
-                            A pose-following framework based on unit dual
-                            quaternions for simultaneously controlling the
-                            translation and rotation of a rigid body.
-                        </p>
-                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
-                                href="https://github.com/jonarriza96/pfdq" style="text-decoration:none;"
-                                target="_blank"> Code
-                            </a>
-                        </button>
-                        &nbsp;
-                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
-                                href="https://arxiv.org/pdf/2308.09507.pdf" 1 style="text-decoration:none;"
-                                target="_blank">
-                                Paper </a>
-                        </button>
-                        &nbsp;
-                        <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
-                                href="https://youtu.be/TQig2j90Ijc" 1 style="text-decoration:none;" target="_blank">
-                                Talk </a>
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-            <div class="w3-row-padding">
-                <div class="w3-container w3-margin-bottom w3-third">
                     <img src="/images/pydecomp/pydecomp.png" alt="Norway" style="width:100%">
                 </div>
                 <div class="w3-container w3-margin-bottom w3-twothird">
@@ -474,8 +483,69 @@
                         </button>
                     </div>
                 </div>
+                <div class="w3-row-padding">
+                    <div class="w3-container w3-margin-bottom w3-third">
+                        <img src="/images/gsft/helix_cropped.gif" alt="Norway" style="width:100%">
+                    </div>
+                    <div class="w3-container w3-margin-bottom w3-twothird">
+                        <p><b>gsft</b><br>Geometric Slosh-Free Tracking for Robotic Manipulators</p>
+                        <div class="w3-small">
+                            <p>
+                                A real-time slosh-free tracking method for robotic manipulators. </p>
+                            <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                    href="https://github.com/jonarriza96/gsft" style="text-decoration:none;"
+                                    target="_blank"> Code
+                                </a>
+                            </button>
+                            &nbsp;
+                            <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                    href="https://arxiv.org/pdf/2402.05197.pdf" 1 style="text-decoration:none;"
+                                    target="_blank">
+                                    Paper </a>
+                            </button>
+                            &nbsp;
+                            <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                    href="https://youtu.be/4kitqYVS9n8" 1 style="text-decoration:none;" target="_blank">
+                                    Video </a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-row-padding">
+                    <div class="w3-container w3-margin-bottom w3-third">
+                        <img src="/images/pfdq/pfdq_software.png" alt="Norway" style="width:100%">
+                    </div>
+                    <div class="w3-container w3-margin-bottom w3-twothird">
+                        <p><b>pfdq</b><br>Path-Following with Dual Quaternions</p>
+                        <div class="w3-small">
+                            <p>
+                                A pose-following framework based on unit dual
+                                quaternions for simultaneously controlling the
+                                translation and rotation of a rigid body.
+                            </p>
+                            <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                    href="https://github.com/jonarriza96/pfdq" style="text-decoration:none;"
+                                    target="_blank"> Code
+                                </a>
+                            </button>
+                            &nbsp;
+                            <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                    href="https://arxiv.org/pdf/2308.09507.pdf" 1 style="text-decoration:none;"
+                                    target="_blank">
+                                    Paper </a>
+                            </button>
+                            &nbsp;
+                            <button class=" w3-button w3-light-gray w3-padding-small w3-hover-black"><a
+                                    href="https://youtu.be/TQig2j90Ijc" 1 style="text-decoration:none;" target="_blank">
+                                    Talk </a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p> I hope that this code paves the ground for other researchers. If you benefit from this, please leave
+            <p> I hope that this code paves the ground for other researchers. If you benefit from it, please leave
                 a <i class="fa fa-star" style="color:orange"></i> !
             </p>
             <!-- --------------------------- Teaching section --------------------------- -->
