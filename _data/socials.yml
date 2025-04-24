@@ -9,6 +9,8 @@ linkedin_username: # your LinkedIn user name
 x_username: # your X handle
 # bluesky_url: # your bluesky URL
 github_username: # your GitHub user name
+scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+# semanticscholar_id: # your Semantic Scholar ID
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 # facebook_id: # your facebook id
@@ -31,9 +33,7 @@ github_username: # your GitHub user name
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
 # rss_icon: false # set to true to show the RSS icon
-# scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
-# semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
 # stackoverflow_id: # your stackoverflow id
 # telegram_username: # your Telegram user name

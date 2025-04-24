@@ -42,16 +42,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-am-giving-a-talk-in-talking-robotics-on-egocentric-decision-making-for-robot-autonomy",
+          title: 'I am giving a talk in Talking Robotics on Egocentric Decision-Making for Robot...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-will-be-attending-icra-2025-in-atlanta",
+          title: 'I will be attending ICRA 2025 in Atlanta',
           description: "",
           section: "News",},{
       id: 'light-theme',
