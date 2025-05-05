@@ -14,6 +14,11 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
+  <!-- Divider before Description -->
+  <div style="margin-top: 2rem; margin-bottom: 1rem;">
+    
+  </div>
+    
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -40,10 +45,15 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Divider before News -->
+    <div style="margin-top: 3rem; margin-bottom: 1rem;">
+      <hr style="border: none; height: 1px; background-color: #ccc;">
+    </div>
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -56,12 +66,21 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Divider before Papers -->
+    <div id="papers-section" style="margin-top: 3rem; margin-bottom: 1rem;">
+      <hr style="border: none; height: 1px; background-color: #ccc;">
+    </div>
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="publications">
+        {% bibliography --group_by none %}
+      </div>
+
+      
     {% endif %}
 
     <!-- Social -->
