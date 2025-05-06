@@ -263,19 +263,23 @@ let determineThemeSetting = () => {
 
 // Determine the computed theme, which can be "dark" or "light". If the theme setting is
 // "system", the computed theme is determined based on the user's system preference.
+// let determineComputedTheme = () => {
+//   let themeSetting = determineThemeSetting();
+//   if (themeSetting == "system") {
+//     const userPref = window.matchMedia;
+//     if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
+//       return "dark";
+//     } else {
+//       return "light";
+//     }
+//   } else {
+//     return themeSetting;
+//   }
+// };
 let determineComputedTheme = () => {
-  let themeSetting = determineThemeSetting();
-  if (themeSetting == "system") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    } else {
-      return "light";
-    }
-  } else {
-    return themeSetting;
-  }
+   return "light";
 };
+
 
 let initTheme = () => {
   let themeSetting = determineThemeSetting();
