@@ -45,13 +45,13 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- Divider before News -->
-    <div style="margin-top: 3rem; margin-bottom: 1rem;">
-      <hr style="border: none; height: 1px; background-color: #ccc;">
-    </div>
-
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
+      <!-- Divider before News -->
+      <div style="margin-top: 3rem; margin-bottom: 1rem;">
+        <hr style="border: none; height: 1px; background-color: #ccc;">
+      </div>
+
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
