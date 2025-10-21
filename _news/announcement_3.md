@@ -6,4 +6,5 @@ related_posts: false
 ---
 
 I gave a talk at the [Northeast Systems and Control Workshop](https://nescw.org/) at Columbia University
+
  <!-- on `Egocentric Decision-Making for Robot Autonomy` -->
