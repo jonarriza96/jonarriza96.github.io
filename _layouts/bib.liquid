@@ -176,7 +176,7 @@
     {% if hook_exists == 'true' %}
       {% include hook/bib.liquid %}
     {% endif %}
-  {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% if entry.award %}, <font color="#D28E1F">{{ entry.award }}</font>{% endif %}{% endcapture %}
+  {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% if entry.award %}, <font color="#2563EB"><b>{{ entry.award }}</b></font>{% endif %}{% endcapture %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     <div class="periodical">
       {{ periodical | strip }}
