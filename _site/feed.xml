@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-23T21:33:27-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Personal website of Jon Arrizabalaga, researcher in robotics and AI.</subtitle><entry><title type="html">a post with plotly.js</title><link href="http://localhost:4000/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js" /><published>2025-03-26T10:24:00-04:00</published><updated>2025-03-26T10:24:00-04:00</updated><id>http://localhost:4000/blog/2025/plotly</id><content type="html" xml:base="http://localhost:4000/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-24T19:06:18-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>Personal website of Jon Arrizabalaga, researcher in robotics and AI.</subtitle><entry><title type="html">a post with plotly.js</title><link href="http://localhost:4000/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js" /><published>2025-03-26T10:24:00-04:00</published><updated>2025-03-26T10:24:00-04:00</updated><id>http://localhost:4000/blog/2025/plotly</id><content type="html" xml:base="http://localhost:4000/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p>
 
 <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
 </span><span class="sb">{
@@ -201,7 +201,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="56d4c909-e8b7-4329-95e5-445a1df74278" data-name="log">
+<ul id="log" class="tab" data-tab="96c9b8ed-25ea-42cc-987b-4f968759dd5d" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -216,7 +216,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="56d4c909-e8b7-4329-95e5-445a1df74278" data-name="log">
+<ul class="tab-content" id="96c9b8ed-25ea-42cc-987b-4f968759dd5d" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -240,7 +240,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="bf3d0d51-631a-4094-9f9d-4dc85026301c" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="5c644654-8601-462b-988a-8deb26508a3a" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -251,7 +251,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="bf3d0d51-631a-4094-9f9d-4dc85026301c" data-name="data-struct">
+<ul class="tab-content" id="5c644654-8601-462b-988a-8deb26508a3a" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -273,7 +273,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="079b667e-fd81-4eb9-8463-e776885fab70" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="9bb27c2c-4471-4214-a03c-366732aa9d52" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -288,7 +288,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="079b667e-fd81-4eb9-8463-e776885fab70" data-name="something-else">
+<ul class="tab-content" id="9bb27c2c-4471-4214-a03c-366732aa9d52" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>

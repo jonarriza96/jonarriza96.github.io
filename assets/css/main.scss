@@ -25,7 +25,7 @@ $max-content-width: {{ site.max_width }};
 ;
 
 .grayscale-hover {
-  filter: grayscale(100%);
+  filter: grayscale(10%);
   opacity: 0.75;
   transition: filter 0.25s ease, opacity 0.25s ease;
 }
