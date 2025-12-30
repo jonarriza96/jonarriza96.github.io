@@ -9,7 +9,7 @@ profile:
   image: jon_arrizabalaga/profile/JA_headshot_cropped.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <div style="text-align: center"><b><a href='assets/pdf/CV_JonArrizabalaga.pdf' target="_blank"><i class="fas fa-file-alt" style="margin-right:5px;"></i>Resume/CV</a></b></div>
+    <div style="text-align: center"><b><a href='assets/pdf/Jon_Arrizabalaga_CV.pdf' target="_blank"><i class="fas fa-file-alt" style="margin-right:5px;"></i>Resume/CV</a></b></div>
   #, <a href='assets/pdf/example_pdf.pdf'>interviewa</a></p>
   #, <a href='assets/pdf/example_pdf.pdf'>interview</a></p>
 
