@@ -63,7 +63,7 @@ You can find more about me in an [interview](assets/pdf/NavigatorWS2324.pdf#page
         <img src="assets/img/logos/MIT_logo.png" alt="MIT" class="grayscale-hover" style="height: 70px; margin-bottom: 10px;">
       </a>
       <div style="font-size: 14px; font-weight: 500;">Postdoc</div>
-      <div style="font-size: 12px; color: #666;">2026 - 2028</div>
+      <div style="font-size: 12px; color: #666;">2026 - Present</div>
     </div>
 
   </div>
