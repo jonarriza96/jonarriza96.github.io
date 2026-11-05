@@ -24,6 +24,12 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
+.profile img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
 .grayscale-hover {
   filter: grayscale(10%);
   opacity: 0.75;
@@ -35,3 +41,5 @@ $max-content-width: {{ site.max_width }};
   filter: grayscale(0%);
   opacity: 1;
 }
+
+@import "appearance";
